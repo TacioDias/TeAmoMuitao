@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+html, body    {
+    margin: 0;
+    padding: 0 0 0 0;
+    height: auto;
+}
+
+body    {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("fundo11.png");
+    margin: 0;
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; /* cobre a tela sem esticar */
+    background-position: center;
+    background-attachment: fixed; /* faz a imagem rolar junto */
+}
+#titulo-principal   {
+    font-family: "Amarante", serif;
+    text-align: center;
+    font-size: 2.6em;
+    text-shadow: 0 0 10px black;
+    width: max-content;
+    height: min-content;
+    padding: 2em 2em 2em 2em;
+    margin: 7vh 0 0 0;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 5px black;
+    border-radius: 100em;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.128);
+    color: white;
+}
+#titulo-principal div   {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+#titulo-principal h1,p    {
+    margin: 0 6px 0 6px;
+}
+#titulo-principal p {
+    font-size: 0.8em;
+}
+
+#categorias {
+    width: 90vw;
+    max-width: 1900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categoria   {
+    padding: 0em;
+    margin: 3em;
+    border-radius: 1em;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0 0 7px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+}
+
+.categoria:hover    {
+    transform: scale(1.04);
+    box-shadow: 0 0 10px black;
+}
+
+.categoria p    {
+    color: white;
+    background-color: brown;
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    margin: 0;
+    border-radius: 0 0 1em 1em;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    margin: auto;
+    top: 280px;
+}
+
+a   {
+    text-decoration: none;
+}
