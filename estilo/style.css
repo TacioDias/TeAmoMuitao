@@ -6,7 +6,6 @@ html, body    {
     padding: 0 0 0 0;
     height: auto;
     font-family: "Jua", serif;
-    font-weight: bold;
     /*font-family: "Amarante", serif;*/
 }
 
@@ -67,8 +66,6 @@ body    {
     border-radius: 1em;
     background-color: rgb(214, 214, 214);
     box-shadow: 0 0 7px black;
-    
-    font-weight: bolder;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 300px;
@@ -90,6 +87,7 @@ body    {
     border-radius: 0 0 1em 1em;
     text-align: center;
     font-size: 2em;
+    font-weight: bolder;
     position: relative;
     margin: auto;
     top: 280px;
