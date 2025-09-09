@@ -96,3 +96,38 @@ body    {
 a   {
     text-decoration: none;
 }
+
+h2  {
+    font-size: 4em;
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin: 0px auto auto auto;
+    padding: 10px;
+    width: 90vw;
+    max-width:1900px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3em;
+}
+
+@media (max-width: 1000px)  {
+
+    body    {
+        background-size: cover;
+    }
+
+    #titulo-principal   {
+        margin-top: 3vh;
+        padding: 1.5em;
+        border-radius: 3em;
+        font-size: 2.5em;
+        width: 50vw;
+    }
+    #titulo-principal div   {
+        flex-direction: column;
+    }
+
+    h2  {
+        font-size: 2.5em;
+    }
+}
