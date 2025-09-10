@@ -6,6 +6,7 @@ html, body    {
     padding: 0 0 0 0;
     height: auto;
     font-family: "Jua", serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     /*font-family: "Amarante", serif;*/
 }
 
@@ -14,14 +15,19 @@ body    {
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    background-image: url("fundo11.png");
+    background-image: url("fundo111.png");
     margin: 0;
-    
     background-repeat: no-repeat;
     background-size: 100vw 100vh; /* cobre a tela sem esticar */
     background-position: center;
     background-attachment: fixed; /* faz a imagem rolar junto */
 }
+
+p   {
+    font-family: "Libre Baskerville";
+    font-weight: normal;
+}
+
 #titulo-principal   {
     text-align: center;
     font-size: 2.6em;
@@ -45,6 +51,7 @@ body    {
     align-content: center;
 }
 #titulo-principal h1,p    {
+
     margin: 0 6px 0 6px;
 }
 #titulo-principal p {
@@ -54,6 +61,7 @@ body    {
 #categorias {
     width: 90vw;
     max-width: 1900px;
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -110,21 +118,48 @@ h2  {
     border-radius: 3em;
 }
 
+.trecho-historia    {
+    background-color: rgba(0, 0, 0, 0.471);
+    color: white;
+    display: flex;
+    width: 40vw;
+    max-width: 1500px;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.trecho-historia p  {
+    margin-bottom: 1em;
+}
+
+.trecho-historia img    {
+    width: 280px;
+    box-shadow: 0 0 10px black;
+    border-radius: 0.1em;
+    margin: 10px;
+
+}
+
+
 @media (max-width: 1000px)  {
 
     body    {
-        background-size: cover 100vh;
+        background-size: cover;
     }
 
     #titulo-principal   {
         margin-top: 3vh;
-        padding: 1.5em;
+        padding: 0.5em 1.5em 0.5em 1.5em;
         border-radius: 3em;
         font-size: 2.5em;
         width: 50vw;
     }
     #titulo-principal div   {
         flex-direction: column;
+    }
+
+    .categoria:hover    {
+    transform: scale(1);
     }
 
     h2  {
