@@ -130,13 +130,12 @@ h3  {
 }
 
 .trecho-historia    {
-    
     background-color: rgba(0, 0, 0, 0.471);
     color: white;
     display: flex;
     align-items: center;
     width: 40vw;
-    max-width: 1500px;
+    max-width: 850px;
     padding: 2em;
     border-radius: 1em;
     }
@@ -181,5 +180,11 @@ h3  {
 
     h2  {
         font-size: 2.5em;
+    }
+
+    .trecho-historia    {
+        width: 90vw;
+        display: block;
+        padding: 0em;
     }
 }
