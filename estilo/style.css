@@ -1,13 +1,14 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Jua&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 html, body    {
     margin: 0;
     padding: 0 0 0 0;
     height: auto;
-    font-family: "Jua", serif;
+    font-family: "Fredoka", sans-serif;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    /*font-family: "Amarante", serif;*/
 }
 
 body    {
@@ -115,7 +116,7 @@ h2  {
     width: 90vw;
     max-width:1900px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.375);
     border-radius: 3em;
 }
 
@@ -161,6 +162,11 @@ h3  {
     display: flex;
     justify-content: center;
     
+}
+
+#amor-link  {
+    max-width: 250px;
+    filter: drop-shadow(0 0 10px rgb(0, 0, 0));
 }
 
 @media (max-width: 1000px)  {
