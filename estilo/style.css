@@ -3,6 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+li  {
+    
+}
+
 html, body    {
     margin: 0;
     padding: 0 0 0 0;
@@ -189,6 +193,10 @@ h3  {
     }
     #titulo-principal div   {
         flex-direction: column;
+    }
+
+    .categoria  {
+        margin: 2em;
     }
 
     .categoria:hover    {
